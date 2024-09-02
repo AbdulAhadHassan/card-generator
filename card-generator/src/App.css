@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button{
+  background-color: aqua !important;
+}
+input{
+  border: 1px grey ;
+  border-style: solid;
+  margin: 3px;
+  
+}
+
+input::-ms-value{
+  padding-left: 8px;
+}
+
+input::placeholder{
+  padding-left: 8px;
+}
